@@ -41,7 +41,7 @@
 
   - Build comannd: `npm run build` (*OR `CI= npm run build`*)
 
-  - Publish directory: `/dist` (or `/build` if using **CRA** or `/client/dist`)
+  - Publish directory: `/dist`
 
 &nbsp;
 
