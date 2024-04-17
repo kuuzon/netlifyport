@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import { Navbar, Nav } from "react-bootstrap";
-import { RiReactjsLine } from "react-icons/ri";
+import { SiNetlify } from "react-icons/si";
 
 import styles from './Header.module.scss';
 import useTheme from '../../hooks/useTheme';
@@ -15,7 +15,7 @@ const Header = () => {
     <Navbar className={styles[theme]}>
       <Container>
         <Navbar.Brand className={styles.navLink} as={Link} to='/'>
-          <RiReactjsLine className={styles.icon} style={{color: 'aqua'}} /> useMyFolio
+          <SiNetlify className={styles.icon} style={{color: 'aqua'}} /> netlifyPort
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
 
